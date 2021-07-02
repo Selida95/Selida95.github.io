@@ -75,7 +75,7 @@ h1 {
     width: 35px;
 }
 
-#social img:hover {
+#socials img:hover {
     transform: scale(105%);
 }
 
