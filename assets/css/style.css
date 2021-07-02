@@ -56,7 +56,6 @@ h1 {
 }
 
 #socials span:hover {
-    transform: scale(102%);
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
       -o-filter: grayscale(0%);
@@ -73,6 +72,7 @@ h1 {
 }
 
 #socials img {
+    transform: scale(102%);
     width: 35px;
 }
 
