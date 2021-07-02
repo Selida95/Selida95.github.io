@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+}
+
+main {
+    margin: 200px auto;
+    width: 400px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 0 auto;
+    width: 100vw;
+}
+
+p {
+    margin: 0;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 125px;
+}
+
+#avatar:hover {
+    transform: scale(105%);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.64);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.64);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 210px;
+}
+
+#socials {
+    width: 285px;
+    margin: 15px auto;
+}
+
+#socials span {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+     -ms-filter: grayscale(100%);
+         filter: grayscale(100%);
+}
+
+#socials span:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+      -o-filter: grayscale(0%);
+     -ms-filter: grayscale(0%);
+         filter: grayscale(0%);
+}
+
+#socials span:first-child {
+    margin: 0 45px 0 40px;
+}
+
+#socials span:last-child {
+    margin: 0 40px 0 45px;
+}
+
+#socials img {
+    width: 35px;
+}
+
+#socials a {
+    text-decoration: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
