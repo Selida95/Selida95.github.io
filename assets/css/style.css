@@ -15,7 +15,7 @@ footer {
     position: fixed;
     bottom: 0;
     text-align: center;
-    padding: 5px auto;
+    padding-bottom: 5px;
     width: 100vw;
     z-index: 1000;
 }
