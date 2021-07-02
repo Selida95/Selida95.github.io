@@ -6,7 +6,8 @@ body {
 }
 
 main {
-    margin: 200px auto;
+    margin: 190px auto;
+    padding: 10px;
     width: 400px;
     overflow: hidden;
 }
